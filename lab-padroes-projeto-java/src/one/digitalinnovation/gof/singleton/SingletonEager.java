@@ -1,10 +1,5 @@
 package one.digitalinnovation.gof.singleton;
 
-/**
- * Singleton "apressado".
- * 
- * @author falvojr
- */
 public class SingletonEager {
 
 	private static SingletonEager instancia = new SingletonEager();
