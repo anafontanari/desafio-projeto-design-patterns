@@ -1,10 +1,11 @@
 package spring_boot.desafio_projeto.clientregistration.controller;
 
 
-import com.example.clientregistration.model.Cliente;
-import com.example.clientregistration.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import spring_boot.desafio_projeto.clientregistration.model.Cliente;
+import spring_boot.desafio_projeto.clientregistration.service.ClienteService;
 
 import java.util.List;
 

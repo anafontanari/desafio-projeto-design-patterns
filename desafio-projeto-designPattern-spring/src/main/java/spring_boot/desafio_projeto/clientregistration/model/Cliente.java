@@ -1,7 +1,10 @@
 package spring_boot.desafio_projeto.clientregistration.model;
 
-import javax.persistence.*;
 import java.util.List;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 @Entity
 public class Cliente {
@@ -70,5 +73,6 @@ public class Cliente {
         this.telefones = telefones;
     }
 
-    public List<Email> getEmails()
+//    public List<Email> getEmails()
 
+}

@@ -1,6 +1,7 @@
 package spring_boot.desafio_projeto.clientregistration.shell;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.shell.standard.*;
 
 import spring_boot.desafio_projeto.clientregistration.factory.ClienteFactory;
 import spring_boot.desafio_projeto.clientregistration.model.Cliente;

@@ -1,6 +1,6 @@
 package spring_boot.desafio_projeto.clientregistration.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 public class Email {
